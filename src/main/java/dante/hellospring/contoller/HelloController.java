@@ -18,6 +18,9 @@ public class HelloController {
 
     @GetMapping("hello-mvc")
     public String helloMvc(@RequestParam("name") String name, Model model){
+
+        // RequestParam 은 기본적으로 required true 상태여서 필수값이다.
+
         model.addAttribute("name", name);
         return "hello-template";
     }
