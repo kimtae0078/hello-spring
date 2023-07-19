@@ -2,8 +2,8 @@
 spring 입문 강의(인프런-김영한 강의)
 
 * * *
-## spring-boot-devtools
 
+## spring-boot-devtools
 > Spring boot  에서 제공하는 개발 편의를 위한 모듈.
 
 #### 제공 기능
@@ -17,3 +17,7 @@ spring 입문 강의(인프런-김영한 강의)
 - Remote Applications
    
 * * *
+
+## MVC와 템플릿 엔진
+- Model, View, Contoller    
+웹 브라우저 -> 내장 톰캣 서버 -> 스프링컨테이너에서 리턴과 함께 model 반환 -> viewResolver(Thymleaf 템플릿 엔진 처리)에서 HTML 변환 후 웹 브라우저에서 보여준다.
